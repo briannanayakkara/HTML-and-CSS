@@ -1,0 +1,304 @@
+html, body
+{
+	position: relative;
+	margin: 0%;
+	padding: 0%;
+	font-family: calibri;
+}
+
+nav 
+{
+	background-color: gray; 
+	list-style-type: none;
+
+}
+nav img
+{
+	margin: 5px;
+}
+nav a 
+{
+  	display: block;
+  	color: white;
+  	padding: 18px 18px;
+  	text-decoration: none;
+}
+
+nav li
+{
+	float: right;
+}
+
+nav li a:hover
+{
+	background-color: #555;
+	color: white; 
+}
+
+
+.frontPage
+{
+	position: relative;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;  
+	background-image: url("img/forside/forside-img.png");
+	height: 650px;
+	width: 100%;
+	text-align: center;
+	display: flex;
+	flex-wrap: wrap; 
+
+}	
+
+.text
+{
+	font-size: 1em;
+	color: white;
+	position: relative;
+	top: 25%;
+	left: 10%;
+	text-align: center;
+	height: 300px;
+	width: auto;
+
+}
+
+input[name=LæsMere]
+{
+text-align: center;
+}
+
+.OtherEvents
+{
+	text-align: center;
+	color: gray;
+	position: relative;
+	margin-top:2%;
+	width: 86%;
+	margin: 0% 10% 0% 10%;
+	display: flex;
+	flex-wrap: wrap; 
+
+}
+
+.discriptiontex
+{
+	position:relative;
+	text-align: center;
+	width: auto;
+	max-width: 1125px;
+	margin-left: 4%;
+}
+
+.OtherEvents, h3
+{
+	text-align: center;
+	color: gray;
+	font-size: 40px;
+}
+
+.OtherEvents p
+{
+	position: relative;
+	font-weight: normal;
+	font-size: 18px;
+
+}
+
+.OtherEvents img
+{
+	float: left;
+	display: flex;
+	flex-wrap: wrap;
+	margin: 10px;
+}
+
+.konferencerText
+{
+	position: absolute;
+	font-size: 15px;
+	width: 339px;
+	color: white;
+	background-color: #DCDCDC;  
+	text-align: center;
+	margin-left: 10px;
+	margin-top: 278px; 
+	height: 195px;
+	padding: 10px;
+	
+}
+
+
+.receptionText
+{
+	position: absolute;
+	font-size: 15px;
+	height: 195px;
+	width: 339px;
+	color: white;
+	background-color: #DCDCDC; 
+	text-align: center;
+	margin-left: 389px;
+	margin-top: 278px; 
+	padding: 10px;
+}
+.Oktoberfest
+{
+	width: 200%; 
+}
+.oktoberfestText
+{
+	position: absolute;
+	font-size: 15px;
+	height: 195px;
+	width: 339px;
+	color: white;
+	background-color: #DCDCDC;
+	text-align: center;
+	margin-left: 768px;
+	margin-top: 278px; 
+	padding: 10px;
+}
+
+.julefrokost
+{
+	position: absolute;
+	margin-top: 500px;
+	float: left;
+
+}
+
+.julefrokostText
+{
+	position: absolute;
+	font-size: 15px;
+	width: 339px;
+	color: white;
+	background-color: #DCDCDC; 
+	text-align: center;
+	margin-left: 10px;
+	margin-top: 277px; 
+	margin-bottom: 5px;
+	height: 195px;
+	padding: 10px;
+}
+
+.middelalder
+{
+	position: relative;
+	float: left;
+	margin-left: 379px;
+	margin-top: 210px;
+}
+.middelalderText
+{
+	position: absolute;
+	font-size: 15px;
+	width: 339px;
+	color: white;
+	background-color: #DCDCDC; 
+	text-align: center;
+	margin-left: 10px;
+	margin-top: 277px; 
+	margin-bottom: 5px;
+	height: 195px;
+	padding: 10px;
+}
+
+.action
+{
+	position: absolute;
+	margin-left: 758px; 
+	margin-top: 500px; 
+}
+
+.actionText 
+{
+	color: white;
+	background-color: #DCDCDC; 
+	position: absolute;
+	font-size: 15px;
+	width: 339px;
+	text-align: center;
+	margin-left: 10px;
+	margin-top: 277px; 
+	margin-bottom: 5px;
+	height: 195px;
+	padding: 10px;
+}
+
+input[name=LæsMereO]
+{
+	border-color: red; 
+	color: red;
+	border-radius: 5px;
+}
+
+input[name=LæsMereO]:hover
+{
+	background-color: red; 
+	border-color: red; 
+	color: white;
+}
+
+h4
+{
+	font-size: 2em;
+}
+
+h1
+{
+	font-weight: normal;
+	font-size: 35px;
+}
+
+.ContactPage
+{
+	background-color: #000000;
+	position: relative;
+	margin-top: 15%;
+}
+
+.contactText
+{
+	color: white; 
+	text-align: left;
+	width: auto;
+	max-width: 480px;
+	padding-left: 50px; 
+}
+
+.contactTextP p
+{
+font-size: 80px;
+}
+
+.location
+{
+	position: relative;
+	margin-top: -10%;
+	margin-left: 60%;
+}
+.boxes
+{
+	position: relative;
+	margin-left: 50px;
+	width: auto;
+	height: auto;
+	max-width: 1125px;
+	margin-bottom: 10%;
+
+}
+footer
+{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+@media only screen and (max-width: 600px) {
+  img {
+  float: none;
+  }
+}
+

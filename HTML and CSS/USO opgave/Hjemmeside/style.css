@@ -1,0 +1,157 @@
+html,body
+{
+	height: 100%;
+	margin: 0;
+	background-color: #000000;
+	color: white;
+}
+	
+.TopSlider01
+{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 5px;
+	width: 50%;
+}
+
+.TopSlider02
+{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 5px;
+	width: 50%;
+}
+.nav a
+{
+  display: block;
+  color: white;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+.nav li
+{
+	float: left;
+}
+.nav 
+{
+	float: right;
+	padding-right: 10px;
+
+}
+ul 
+{
+  list-style-type: none;
+
+
+}
+.nav li a:hover {
+  background-color: #555;
+  color: white;
+}
+.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.Video
+{
+	position: relative;
+	margin: 5px;  
+	margin-left: 20%;
+}
+
+.KONCERTER
+{
+	margin-left: 120px;
+}
+
+.MUSIK ,.Gear
+{
+	position: relative;
+	margin-left: 120px;
+	margin-top: 0px;
+}
+
+
+footer
+{
+	border-top: solid;
+	border-bottom: solid;
+	margin: 30px;
+	padding: 20px;
+	padding-bottom: 20px;
+	display: flex;
+	flex-wrap: wrap; 
+}
+
+footer .Logo
+{
+	padding-top: 25px;
+
+}
+
+footer img
+{
+	margin-left: 10px;
+	margin-right: 30px;
+}
+
+.usoMLogo
+{
+	position: absolute;
+	align-content: center;
+	vertical-align: top;
+	text-align: center;
+	padding-left: 33%;
+
+}
+
+.Albumpic
+{
+	padding-top: 75px;
+	align-content: center;
+	border-right: solid;
+	vertical-align: top;
+	text-align: center;
+
+}
+
+.newsBox
+{
+	position: relative;
+	padding:10px;
+	padding-left: 50px;
+}
+.newsBox img
+{
+	position: relative;
+	padding-top: 20px;
+	left: 250px;
+	margin-right: 2px;
+}
+
+input[type=email] 
+{
+	background-color: #ac8e40;
+	height: 35px; 
+	width: 220px;
+	padding-left: 3px;
+	margin-right: -4px;
+	border-spacing: 1px;
+	border-radius: 2px;
+}
+input[type=submit]
+{
+	margin-left: -5px;
+	border-radius: 2px;
+	height: 42px; 
+	width: 35px;
+}
+
+.boder
+{
+	height: 250px;
+	border-right: solid; 
+}
